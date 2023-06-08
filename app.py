@@ -6,7 +6,7 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 
 # Hardcoded login credentials
 LOGIN_USERNAME = 'admin'
-LOGIN_PASSWORD = 'password'
+LOGIN_PASSWORD = 'admin'
 
 # SQLite database connection
 conn = sqlite3.connect('attendance.db', check_same_thread=False)
